@@ -4,26 +4,19 @@
   
     
     <entry>
-      <title></title>
-      <link href="2021/04/11/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
-      <url>2021/04/11/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/</url>
+      <title>词法分析</title>
+      <link href="2021/04/11/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
+      <url>2021/04/11/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/</url>
       
-        <content type="html"><![CDATA[<h1 id="词法分析"><a href="#词法分析" class="headerlink" title="词法分析"></a>词法分析</h1><blockquote><p>介绍关于编译器处理过程的第一步: 词法分析</p></blockquote><h3 id="0-简介"><a href="#0-简介" class="headerlink" title="0. 简介"></a>0. 简介</h3><h3 id="1-构词的规则-正则表达式"><a href="#1-构词的规则-正则表达式" class="headerlink" title="1. 构词的规则: 正则表达式"></a>1. 构词的规则: 正则表达式</h3><h3 id="2-单词的识别-NFA和DFA"><a href="#2-单词的识别-NFA和DFA" class="headerlink" title="2. 单词的识别: NFA和DFA"></a>2. 单词的识别: NFA和DFA</h3><h3 id="3-NFA到DFA的子集构造法"><a href="#3-NFA到DFA的子集构造法" class="headerlink" title="3. NFA到DFA的子集构造法"></a>3. NFA到DFA的子集构造法</h3><h3 id="4-DFA状态的最小化"><a href="#4-DFA状态的最小化" class="headerlink" title="4. DFA状态的最小化"></a>4. DFA状态的最小化</h3><h3 id="5-Thomson构造法"><a href="#5-Thomson构造法" class="headerlink" title="5. Thomson构造法"></a>5. Thomson构造法</h3><h3 id="6-正则表达式到DFA的直接构造方法"><a href="#6-正则表达式到DFA的直接构造方法" class="headerlink" title="6. 正则表达式到DFA的直接构造方法"></a>6. 正则表达式到DFA的直接构造方法</h3>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="2021/03/27/Java%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/"/>
-      <url>2021/03/27/Java%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/</url>
-      
-        <content type="html"><![CDATA[<ul><li>访问修饰符</li></ul><p><img src="https://i.loli.net/2021/03/27/zja8GXAoiWrPMs5.png" alt="img" loading="lazy"></p><ul><li>byte和int</li></ul><blockquote><p>byte类型的变量在做运算时被会转换为int类型的值，故A、B左为byte，右为int，会报错；而C、D语句中用的是a+=b的语句，此语句会将被赋值的变量自动强制转化为相对应的类型</p></blockquote><p><img src="https://i.loli.net/2021/03/27/Lk6DtUKxcgfPWpy.png" alt="image-20210327144227895" loading="lazy"></p><p>- </p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>介绍关于编译器处理过程的第一步: 词法分析</p></blockquote><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><h3 id="构词的规则-正则表达式"><a href="#构词的规则-正则表达式" class="headerlink" title="构词的规则: 正则表达式"></a>构词的规则: 正则表达式</h3><h3 id="单词的识别-NFA和DFA"><a href="#单词的识别-NFA和DFA" class="headerlink" title="单词的识别: NFA和DFA"></a>单词的识别: NFA和DFA</h3><h3 id="NFA到DFA的子集构造法"><a href="#NFA到DFA的子集构造法" class="headerlink" title="NFA到DFA的子集构造法"></a>NFA到DFA的子集构造法</h3><h3 id="DFA状态的最小化"><a href="#DFA状态的最小化" class="headerlink" title="DFA状态的最小化"></a>DFA状态的最小化</h3><h3 id="Thomson构造法"><a href="#Thomson构造法" class="headerlink" title="Thomson构造法"></a>Thomson构造法</h3><h3 id="正则表达式到DFA的直接构造方法"><a href="#正则表达式到DFA的直接构造方法" class="headerlink" title="正则表达式到DFA的直接构造方法"></a>正则表达式到DFA的直接构造方法</h3>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 编译原理 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -51,6 +44,12 @@
       
       
       
+        <tags>
+            
+            <tag> 闲话 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -60,7 +59,7 @@
       <link href="2021/03/25/hello-world/"/>
       <url>2021/03/25/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h3 id="After-modifying"><a href="#After-modifying" class="headerlink" title="After modifying"></a>After modifying</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
