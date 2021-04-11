@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>site</title>
-      <link href="2021/03/26/site/"/>
-      <url>2021/03/26/site/</url>
+      <title></title>
+      <link href="2021/04/11/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/"/>
+      <url>2021/04/11/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="词法分析"><a href="#词法分析" class="headerlink" title="词法分析"></a>词法分析</h1><blockquote><p>介绍关于编译器处理过程的第一步: 词法分析</p></blockquote><h3 id="0-简介"><a href="#0-简介" class="headerlink" title="0. 简介"></a>0. 简介</h3><h3 id="1-构词的规则-正则表达式"><a href="#1-构词的规则-正则表达式" class="headerlink" title="1. 构词的规则: 正则表达式"></a>1. 构词的规则: 正则表达式</h3><h3 id="2-单词的识别-NFA和DFA"><a href="#2-单词的识别-NFA和DFA" class="headerlink" title="2. 单词的识别: NFA和DFA"></a>2. 单词的识别: NFA和DFA</h3><h3 id="3-NFA到DFA的子集构造法"><a href="#3-NFA到DFA的子集构造法" class="headerlink" title="3. NFA到DFA的子集构造法"></a>3. NFA到DFA的子集构造法</h3><h3 id="4-DFA状态的最小化"><a href="#4-DFA状态的最小化" class="headerlink" title="4. DFA状态的最小化"></a>4. DFA状态的最小化</h3><h3 id="5-Thomson构造法"><a href="#5-Thomson构造法" class="headerlink" title="5. Thomson构造法"></a>5. Thomson构造法</h3><h3 id="6-正则表达式到DFA的直接构造方法"><a href="#6-正则表达式到DFA的直接构造方法" class="headerlink" title="6. 正则表达式到DFA的直接构造方法"></a>6. 正则表达式到DFA的直接构造方法</h3>]]></content>
       
       
       
@@ -17,9 +17,22 @@
     
     
     <entry>
-      <title>site.md</title>
-      <link href="2021/03/26/site-md/"/>
-      <url>2021/03/26/site-md/</url>
+      <title></title>
+      <link href="2021/03/27/Java%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/"/>
+      <url>2021/03/27/Java%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/</url>
+      
+        <content type="html"><![CDATA[<ul><li>访问修饰符</li></ul><p><img src="https://i.loli.net/2021/03/27/zja8GXAoiWrPMs5.png" alt="img" loading="lazy"></p><ul><li>byte和int</li></ul><blockquote><p>byte类型的变量在做运算时被会转换为int类型的值，故A、B左为byte，右为int，会报错；而C、D语句中用的是a+=b的语句，此语句会将被赋值的变量自动强制转化为相对应的类型</p></blockquote><p><img src="https://i.loli.net/2021/03/27/Lk6DtUKxcgfPWpy.png" alt="image-20210327144227895" loading="lazy"></p><p>- </p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>site</title>
+      <link href="2021/03/26/site/"/>
+      <url>2021/03/26/site/</url>
       
         <content type="html"><![CDATA[]]></content>
       
